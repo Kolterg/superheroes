@@ -1,0 +1,121 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  line-height: 1.5;
+  color: #121212;
+}
+
+#root {
+  display: flex;
+  min-height: 100%;
+  background-color: #282c34;
+}
+
+#App {
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#sidebar {
+  width: 22rem;
+  background-color: #282c34;
+  color: #fff;
+  border-right: solid 1px #e3e3e3;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  padding-top: 1rem;
+  min-width: 12%;
+}
+
+#listOfHeroes {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+#listOfHeroes li {
+  display: flex;
+  flex-direction: column;
+  border-top: solid 1px #e3e3e3;
+  width: 100%;
+}
+
+#listOfHeroes ul {
+  padding: 0;
+}
+
+#sidebar img {
+  width: 4rem;
+  margin-bottom: 1rem;
+}
+
+#sidebar a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#sidebar>* {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+#wrapper {
+  width: 100%;
+}
+
+.CreateSuperhero {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+#Superhero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+#Superhero > div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#Superhero img {
+  max-width: 60%;
+  max-height: 60%;
+  margin: 1rem;
+}
+
+#edit {
+  display: flex;
+  flex-direction: column;
+}
+
+#edit img {
+  max-width: 60%;
+  max-height: 60%;
+  margin: 1rem;
+}
